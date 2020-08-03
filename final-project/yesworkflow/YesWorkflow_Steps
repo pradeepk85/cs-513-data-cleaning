@@ -1,0 +1,4 @@
+or2yw -i NYPL-MenuPage-csv.json -o NYPL-MenuPage-csv.png -ot png -t parallel  -title OpenRefine_MenuPage_Cleaning_steps
+or2yw -i NYPL-Dishcsv.json -o NYPL-Dishcsv.png -ot png -t parallel -title OpenRefine_Dish_Cleaning_steps
+or2yw -i NYPL-Menu-csv.json -o NYPL-Menu-csv.png -ot png -t parallel -title OpenRefine_Menu_Cleaning_steps
+yw graph overall_workflow.py | dot -Tpng -o overall_workflow.png
